@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+h1 {
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  height: calc(100% - 100px);
+  background-color: #bbb;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.mf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mf-album {
+  height: 350px;
+  width: calc(100% / 5 - 40px);
+  margin: 20px 20px;
+  padding: 20px;
+  background-color: darkblue;
+}
+
+.mf-album p {
+  color: white;
+  margin: 0;
+}
+
+.mf-posters {
+  height: 60%;
+}
+
+.mf-posters img {
+  width: 100%;
+}
+
+.mf-titles {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mf-authors {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#app {
+  height: 100vh;
+}
+
